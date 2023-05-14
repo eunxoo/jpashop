@@ -53,11 +53,4 @@ public class Order {
         delivery.setOrder(this);
     }
 
-//    public static void main(String[] args) {
-//        Member member = new Member();
-//        Order order = new Order();
-//
-////        member.getOrders().add(order);
-//        order.setMember(member);
-//    }
 }

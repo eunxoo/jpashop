@@ -18,12 +18,6 @@ public class MemberService {
 
     private final MemberRepository memberRepository;
 
-//    @Autowired // injection 생성자 하나인 경우 자동으로 injection 되기 때문에 생략 가능
-//    public MemberService(MemberRepository memberRepository) {
-//        this.memberRepository = memberRepository;
-//    }  // @RequiredArgsConstructor가 생성자 자동 생성해줌.
-
-
     /**
      * 회원 가입
      */
