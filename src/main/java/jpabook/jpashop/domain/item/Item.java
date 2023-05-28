@@ -24,8 +24,6 @@ public abstract class Item {
 
     private int price;
 
-    private int stock;
-
     private int stockQuantity;
 
     @ManyToMany(mappedBy = "items")
